@@ -1,11 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moving Box", "Assembly-CSharp-firstpass.csproj", "{C2D42EF1-CE02-1671-D461-8B0976B4378E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moving Box", "Assembly-CSharp.csproj", "{B2B4DBEF-7362-31D8-2E98-73314B17FB7A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moving Box", "Assembly-CSharp-Editor-firstpass.csproj", "{CE171A6A-B419-A0AF-2238-A55F6249C659}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2D42EF1-CE02-1671-D461-8B0976B4378E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2D42EF1-CE02-1671-D461-8B0976B4378E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2D42EF1-CE02-1671-D461-8B0976B4378E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2D42EF1-CE02-1671-D461-8B0976B4378E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2B4DBEF-7362-31D8-2E98-73314B17FB7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2B4DBEF-7362-31D8-2E98-73314B17FB7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2B4DBEF-7362-31D8-2E98-73314B17FB7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2B4DBEF-7362-31D8-2E98-73314B17FB7A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE171A6A-B419-A0AF-2238-A55F6249C659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE171A6A-B419-A0AF-2238-A55F6249C659}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE171A6A-B419-A0AF-2238-A55F6249C659}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE171A6A-B419-A0AF-2238-A55F6249C659}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
