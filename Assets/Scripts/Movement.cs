@@ -23,16 +23,20 @@ public class Movement : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		//Rb.AddForce (0, 400 * Time.deltaTime, 500 * Time.deltaTime);
 		Rb.AddForce (0, 0, ForwardForce * Time.deltaTime);
 
-		if (Input.GetKey ("d")) {
+		if (Input.GetKey ("d") || Input.GetKey(KeyCode.RightArrow)) {
 			Rb.AddForce (SidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
 		} 
-		else if (Input.GetKey ("a")) {
+		if (Input.GetKey ("a") || Input.GetKey(KeyCode.LeftArrow)) {
 			Rb.AddForce (-SidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);	
-		}	
+		}
+
+		if (Rb.position.y < -1f) {
+			FindObjectOfType<GameManager>().EndGame();
+		}
 	}
 
 	/*	

@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour {
 	bool GameHasEnded = false;
 	public float DelayInRestart = 2f;
 
+	public GameObject CompleteLevelUI;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -16,6 +18,11 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	public void LevelComplete() {
+		Debug.Log ("Level Complete");	
+		CompleteLevelUI.SetActive (true);
 	}
 
 	public void EndGame () {

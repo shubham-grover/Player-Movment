@@ -14,6 +14,7 @@ public class PlayerCollision : MonoBehaviour {
 			//Debug.Log ("We hit - " + CollisionInfo.GetComponent<Collider>().name);
 			Debug.Log ("We hit - " + CollisionInfo.collider.name);
 			movement.enabled = false;
+			FindObjectOfType<GameManager> ().EndGame ();
 		}
 	}
 }
